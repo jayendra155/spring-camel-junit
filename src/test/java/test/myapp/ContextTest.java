@@ -31,7 +31,7 @@ public class ContextTest {
 	}
 
 	@Test
-	public void test() {
+	public void contextIsInitializedOrNot() {
 
 		if (null == springCamelContext) {
 			fail("Not yet implemented");
